@@ -4,6 +4,7 @@ plugins {
     id 'java'
     id 'eclipse-wtp'
     id 'idea'
+    id "org.sonarqube" version "5.1.0.4882"
 }
 
 group = 'org.cloudfoundry.samples.music'
@@ -69,7 +70,7 @@ java {
 }
 
 jar {
-    enabled = false
+    enabled = true
 }
 
 tasks.named("bootBuildImage") {
