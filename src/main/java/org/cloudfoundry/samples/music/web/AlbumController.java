@@ -49,7 +49,7 @@ public class AlbumController {
         repository.deleteById(id);
     }
 
-    @RequestMapping(value = "/testdggggd", method = RequestMethod.GET)
+    @RequestMapping(value = "/testdgggdfgdfgdfggd", method = RequestMethod.GET)
     public String testController() {
         logger.info("jenkins test");
         return "testtesttesttest";
