@@ -43,7 +43,7 @@ public class AlbumController {
         return repository.findById(id).orElse(null);
     }
 
-    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/{id}DDDDDDD", method = RequestMethod.DELETE)
     public void deleteById(@PathVariable String id) {
         logger.info("Deleting album " + id);
         repository.deleteById(id);
