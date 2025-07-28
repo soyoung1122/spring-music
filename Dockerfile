@@ -1,5 +1,5 @@
 # Base image with JDK 17 and Gradle 8.5
-FROM gradle:8.5-jdk17 AS builder
+FROM docker.io/gradle:8.5-jdk17 AS builder
 
 # Set the working directory
 WORKDIR /app
