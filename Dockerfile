@@ -15,7 +15,7 @@ COPY src /app/src
 RUN gradle build --no-daemon
 
 # Use a smaller base image for the runtime
-FROM openjdk:17-jdk-slim
+FROM docker.io/library/openjdk:17-jdk-slim
 
 # Set the working directory
 WORKDIR /app
